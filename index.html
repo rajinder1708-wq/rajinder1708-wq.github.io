@@ -3,96 +3,328 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Portfolio | E-commerce Assistant</title>
+
+<title>Professional Portfolio | Accountant | MIS | Operations</title>
+
 <style>
-body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f6f8;color:#202124;line-height:1.6}
-.container{max-width:900px;margin:30px auto;background:#fff;padding:42px;box-shadow:0 4px 20px rgba(0,0,0,.08)}
-h1{margin:0;font-size:34px;color:#172b4d}.subtitle{font-size:19px;color:#52606d;margin-top:5px}
-.contact{margin:16px 0 30px;color:#52606d}
-h2{font-size:21px;color:#172b4d;border-bottom:2px solid #e7ebef;padding-bottom:7px;margin-top:30px}
-.card{background:#f8fafc;padding:18px 20px;border-radius:8px;margin:12px 0}
-ul{margin-top:8px}
-.tag{display:inline-block;background:#eef3f8;padding:6px 10px;border-radius:15px;margin:4px;font-size:14px}
-.note{font-size:13px;color:#6b7280}
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#263238;
+    line-height:1.6;
+}
+
+.container{
+    max-width:950px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.hero{
+    background:white;
+    padding:40px 30px;
+    border-radius:16px;
+    box-shadow:0 4px 18px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.hero h1{
+    margin:0;
+    font-size:36px;
+    color:#172b4d;
+}
+
+.hero h2{
+    margin:10px 0;
+    font-size:20px;
+    font-weight:normal;
+    color:#52606d;
+}
+
+.contact{
+    margin-top:18px;
+    color:#52606d;
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:11px 20px;
+    background:#172b4d;
+    color:white;
+    text-decoration:none;
+    border-radius:7px;
+}
+
+section{
+    background:white;
+    margin-top:24px;
+    padding:28px;
+    border-radius:16px;
+    box-shadow:0 3px 14px rgba(0,0,0,0.06);
+}
+
+h3{
+    margin-top:0;
+    color:#172b4d;
+    font-size:23px;
+    border-bottom:2px solid #e5eaf0;
+    padding-bottom:10px;
+}
+
+.card{
+    margin:18px 0;
+    padding:18px;
+    background:#f8fafc;
+    border-left:4px solid #172b4d;
+    border-radius:8px;
+}
+
+.card h4{
+    margin:0 0 5px;
+    color:#172b4d;
+    font-size:18px;
+}
+
+.date{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#eef3f8;
+    padding:8px 13px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px 10px;
+    color:#6b7280;
+    font-size:14px;
+}
+
+@media(max-width:600px){
+    .container{
+        padding:15px;
+    }
+
+    .hero{
+        padding:30px 20px;
+    }
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    .hero h2{
+        font-size:18px;
+    }
+
+    section{
+        padding:22px 18px;
+    }
+}
 </style>
 </head>
+
 <body>
+
 <div class="container">
-<h1>Professional Portfolio</h1>
-<div class="subtitle">Amazon E-commerce Assistant | E-commerce Operations | MIS & Data Management</div>
-<div class="contact">India · Remote-ready · Hindi · English · Punjabi · Odia</div>
 
-<h2>Professional Profile</h2>
-<p>Detail-oriented professional with extensive experience in accounting, MIS, data handling and online content moderation. Experienced in working with structured data, maintaining accuracy, following operational guidelines and meeting productivity requirements in remote environments. Interested in supporting e-commerce operations through product research, listing support, spreadsheet management, order/inventory data handling and administrative tasks.</p>
+    <div class="hero">
+        <h1>Professional Portfolio</h1>
 
-<h2>Core Skills</h2>
-<div>
-<span class="tag">Excel & Spreadsheet Management</span>
-<span class="tag">Data Entry & Validation</span>
-<span class="tag">MIS Reporting</span>
-<span class="tag">Product Research</span>
-<span class="tag">Product Listing Support</span>
-<span class="tag">Inventory Data Management</span>
-<span class="tag">Online Research</span>
-<span class="tag">Content Moderation</span>
-<span class="tag">Quality & Accuracy Checks</span>
-<span class="tag">Remote Work</span>
+        <h2>
+            Accountant | MIS | Operations | Content Moderation
+        </h2>
+
+        <div class="contact">
+            B.Com | MCA | 10+ Years of Accounting & MIS Experience
+        </div>
+
+        <a class="button" href="#contact">
+            Contact Me
+        </a>
+    </div>
+
+
+    <section>
+        <h3>About Me</h3>
+
+        <p>
+            I am an experienced professional with a background in
+            accounting, MIS reporting, administrative operations and
+            digital content moderation.
+        </p>
+
+        <p>
+            I have around 10+ years of experience in accounting and
+            MIS-related responsibilities, followed by professional
+            experience in content moderation and online operations.
+        </p>
+
+        <p>
+            My strengths include accuracy, data handling, reporting,
+            documentation, coordination, problem solving and working
+            with structured processes.
+        </p>
+    </section>
+
+
+    <section>
+        <h3>Professional Experience</h3>
+
+        <div class="card">
+            <h4>Content Moderator</h4>
+
+            <div class="date">
+                Techfi Technologies Pvt. Ltd. | October 2024 – Present
+            </div>
+
+            <ul>
+                <li>Moderating user-generated content and online interactions.</li>
+                <li>Reviewing profiles, chats, audio and livestream content.</li>
+                <li>Applying platform policies and moderation guidelines.</li>
+                <li>Maintaining accuracy while handling high-volume workflows.</li>
+                <li>Working with Hindi, English, Punjabi and Odia content.</li>
+            </ul>
+        </div>
+
+
+        <div class="card">
+            <h4>Accountant / MIS / Administrative Operations</h4>
+
+            <div class="date">
+                March 2013 – September 2024
+            </div>
+
+            <ul>
+                <li>Handled accounting and financial record-related responsibilities.</li>
+                <li>Prepared MIS reports and maintained operational data.</li>
+                <li>Worked with documentation, records and data verification.</li>
+                <li>Supported administrative and reporting requirements.</li>
+                <li>Handled data accuracy, reconciliation and routine reporting activities.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section>
+        <h3>Core Skills</h3>
+
+        <div class="skills">
+
+            <span class="skill">Accounting</span>
+            <span class="skill">MIS Reporting</span>
+            <span class="skill">Data Management</span>
+            <span class="skill">Financial Records</span>
+            <span class="skill">Data Verification</span>
+            <span class="skill">Reconciliation</span>
+            <span class="skill">Payroll Support</span>
+            <span class="skill">Documentation</span>
+            <span class="skill">Microsoft Excel</span>
+            <span class="skill">Microsoft Word</span>
+            <span class="skill">Content Moderation</span>
+            <span class="skill">Online Operations</span>
+            <span class="skill">Quality & Accuracy</span>
+            <span class="skill">Problem Solving</span>
+        </div>
+    </section>
+
+
+    <section>
+        <h3>Languages</h3>
+
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Punjabi</li>
+            <li>Odia</li>
+        </ul>
+    </section>
+
+
+    <section>
+        <h3>Education</h3>
+
+        <div class="card">
+            <h4>Master of Computer Applications (MCA)</h4>
+            <div class="date">
+                DDCE, Sambalpur University | 2013
+            </div>
+        </div>
+
+        <div class="card">
+            <h4>Bachelor of Commerce (B.Com)</h4>
+            <div class="date">
+                Sambalpur University, Odisha | 2008
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h3>Career Profile</h3>
+
+        <p>
+            Open to opportunities in:
+        </p>
+
+        <ul>
+            <li>Accountant</li>
+            <li>Senior Accountant</li>
+            <li>MIS Executive</li>
+            <li>MIS & Reporting</li>
+            <li>Back Office Operations</li>
+            <li>Data & Operations</li>
+            <li>Content Moderation</li>
+            <li>Online Operations</li>
+        </ul>
+    </section>
+
+
+    <section id="contact">
+        <h3>Contact</h3>
+
+        <p>
+            I am open to discussing suitable professional opportunities
+            in accounting, MIS, operations and content moderation.
+        </p>
+
+        <p>
+            <strong>GitHub:</strong>
+            rajinder1708-wq
+        </p>
+
+        <p>
+            Please contact me through my professional application
+            or resume contact details.
+        </p>
+    </section>
+
+
+    <footer>
+        © 2026 Professional Portfolio
+    </footer>
+
 </div>
 
-<h2>Relevant Professional Experience</h2>
-<div class="card">
-<strong>Content Moderator — Techfi Technologies Pvt. Ltd.</strong><br>
-<em>October 2024 – Present | Remote</em>
-<ul>
-<li>Review and moderate user-generated content according to platform policies and quality standards.</li>
-<li>Work with livestream, chat-room, profile and audio-related content.</li>
-<li>Maintain consistency, accuracy and productivity while working remotely.</li>
-<li>Handle content in Hindi, English, Punjabi and Odia.</li>
-</ul>
-</div>
-
-<div class="card">
-<strong>Accountant / MIS / Block-level Accounting & MIS Roles</strong><br>
-<em>March 2013 – September 2024</em>
-<ul>
-<li>Maintained financial and administrative records and performed data verification.</li>
-<li>Prepared MIS reports and worked extensively with structured spreadsheets and data.</li>
-<li>Handled accounting records, reconciliations, documentation and routine reporting.</li>
-<li>Worked with accuracy-sensitive information and deadline-driven processes.</li>
-</ul>
-</div>
-
-<h2>E-commerce Work Samples</h2>
-<div class="card">
-<strong>1. Sample Product Listing Workflow</strong>
-<p>Product title → category → key features → description → price → SKU → inventory → quality check.</p>
-</div>
-<div class="card">
-<strong>2. Sample Product Research</strong>
-<p>Compare competing products, collect specifications and pricing information, identify differentiating features, and organize findings in a spreadsheet for decision-making.</p>
-</div>
-<div class="card">
-<strong>3. Sample Inventory / Order Tracker</strong>
-<p>Maintain SKU, product name, opening stock, received quantity, sold quantity, available stock, order status and remarks in a structured spreadsheet.</p>
-</div>
-
-<h2>Education</h2>
-<p><strong>Master of Computer Applications (MCA)</strong> — DDCE, Sambalpur University, 2013</p>
-<p><strong>Bachelor of Commerce (B.Com)</strong> — Sambalpur University, 2008</p>
-
-<h2>Why I Am Suitable for E-commerce Operations</h2>
-<ul>
-<li>Strong background in data accuracy and structured record management.</li>
-<li>Long-term experience with accounting, MIS and spreadsheet-based work.</li>
-<li>Current experience in online content operations and policy-based review.</li>
-<li>Comfortable working independently in a remote environment.</li>
-<li>Multilingual capability across Hindi, English, Punjabi and Odia.</li>
-</ul>
-
-<h2>Availability</h2>
-<p>Available for remote e-commerce support, product research, catalog/listing assistance, spreadsheet/MIS work, inventory data management and related administrative operations.</p>
-
-<p class="note">This portfolio presents transferable skills and sample workflows. It does not claim prior employment by Amazon.</p>
-</div>
 </body>
 </html>
